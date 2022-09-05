@@ -1,0 +1,26 @@
+form {
+    font-size: 2em;
+    margin-left: 25%;
+}
+
+table>thead>tr {
+    background-color: #CCCCFF;
+    font-size: 1em;
+}
+
+#nm {
+    font-size: 25px;
+    width: 500px;
+    height: 35px;
+}
+
+select{
+    font-size: 25px;
+}
+textarea{
+    font-size: 25px;
+}
+#submit{
+    margin-left: 220px;
+    font-size: 25px;
+}

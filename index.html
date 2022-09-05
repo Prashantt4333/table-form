@@ -4,7 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Enter Your Details </title>
+        <link rel="stylesheet"  href="./css/style.css" />
+        <!-- <style>
+            form{
+                font-size: 2em;
+                margin-left: 25%; 
+            }
+            table > thead > tr{
+                background-color: #CCCCFF;
+                font-size: 2em;
+            }
+            #nm{
+                font-size:25px;
+                width: 500px;
+                height: 35px;
+            }
+        </style> -->
     </head>
     <body>
         <form>
@@ -21,12 +37,12 @@
                             <label for="nm">Name</label>
                         </td>
                         <td>
-                            <input type="text"name="name" id="nm"/>
+                            <input type="text" name="name" id="nm"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="gender">Sex</label>
+                            <label id="gender"> Sex</label>
                         </td>
                         <td>
                             <label>
@@ -39,7 +55,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <label>Eye Color</label>
+                            <label id="eyeColor">Eye Color</label>
                         </td>
                         <td>
                             <select>
@@ -51,20 +67,20 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for="favFruit">Fav. Fruits</label>
+                            <label id="favfruit">Fav. Fruits</label>
                         </td>
                         <td>
                             <label>
-                                <input type="checkbox" name="favFruit" value="apple" />Apple
+                                <input type="checkbox" name="favfruit" value="apple" />Apple
                             </label>
                             <label>
-                                <input type="checkbox" name="favFruit" value="banana" />Banana
+                                <input type="checkbox" name="favfruit" value="banana" />Banana
                             </label>
                             <label>
-                                <input type="checkbox" name="favFruit" value="pineapple" />PineApple
+                                <input type="checkbox" name="favfruit" value="pineapple" />PineApple
                             </label>
                             <label>
-                                <input type="checkbox" name="favFruit" value="mango" />Mango
+                                <input type="checkbox" name="favfruit" value="mango" />Mango
                             </label>
                         </td>
                     </tr>
@@ -73,16 +89,18 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <textarea name="bio" cols="50" rows="8">
+                            <textarea name="bio" cols="47" rows="5">
 
                             </textarea>
                         </td>
                     </tr>
                 </tbody>
                 <tfoot>
-                   <td colspan="2">
-                    <input type="submit"  value="Enter my information"/>
-                   </td>
+                    <tr>
+                        <td colspan="2">
+                                <input type="submit" id="submit"  value="Enter my information"/>
+                        </td>
+                    </tr>
                 </tfoot>
             </table>
         </form>
