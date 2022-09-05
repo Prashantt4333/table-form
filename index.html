@@ -7,6 +7,84 @@
         <title>Document</title>
     </head>
     <body>
-        
+        <form>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="nm">Name</label>
+                        </td>
+                        <td>
+                            <input type="text"name="name" id="nm"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">Sex</label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="radio" name="gender" value="male" id="m"/>Male
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="female" id="f"/>Female
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Eye Color</label>
+                        </td>
+                        <td>
+                            <select>
+                                <option>green</option>
+                                <option>voilet</option>
+                                <option>red</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="favFruit">Fav. Fruits</label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="checkbox" name="favFruit" value="apple" />Apple
+                            </label>
+                            <label>
+                                <input type="checkbox" name="favFruit" value="banana" />Banana
+                            </label>
+                            <label>
+                                <input type="checkbox" name="favFruit" value="pineapple" />PineApple
+                            </label>
+                            <label>
+                                <input type="checkbox" name="favFruit" value="mango" />Mango
+                            </label>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td colspan="2">Tell me about your bio</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea name="bio" cols="50" rows="8">
+
+                            </textarea>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                   <td colspan="2">
+                    <input type="submit"  value="Enter my information"/>
+                   </td>
+                </tfoot>
+            </table>
+        </form>
     </body>
 </html>
